@@ -3,7 +3,7 @@
     "author": "mangogogos",
     "description": "Adds Promise.allObj which is like Promise.all but for objects",
     "license": "MIT",
-    "repository": "not yet",
+    "repository": "https://github.com/mangogogos/PromiseAllObject",
     "version": "0.0.1",
     "dependencies": {
         "typescript": "^2.5.2"
