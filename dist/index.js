@@ -1,4 +1,6 @@
-export function allObj(source) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function allObj(source) {
     const sourceKeys = Object.keys(source);
     const sourceValues = sourceKeys.map(sourceKey => source[sourceKey]);
     return Promise.all(sourceValues)
@@ -10,5 +12,6 @@ export function allObj(source) {
         return destination;
     });
 }
+exports.allObj = allObj;
 Promise.allObj = allObj;
-//# sourceMappingURL=promise-all-object.js.map
+//# sourceMappingURL=index.js.map
