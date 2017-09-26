@@ -1,7 +1,7 @@
 {
     "name": "promise_all_object",
     "author": "mangogogos",
-    "description": "Adds Promise.allObj which is like Promise.all but for objects",
+    "description": "Adds Promise.allObj which is like Promise.all but for objects. Requires Promise, Promise.all, and Object.keys to be available.",
     "license": "MIT",
     "repository": "https://github.com/mangogogos/PromiseAllObject",
     "version": "0.0.1",
