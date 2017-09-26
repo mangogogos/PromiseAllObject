@@ -1,11 +1,11 @@
-type Resolvable<T> = Promise<T> | T;
-type SourceObject<Spec> = {
+export type Resolvable<T> = Promise<T> | T;
+export type SourceObject<Spec> = {
     [key in keyof Spec]: Resolvable<Spec[key]>
 }
-type DestinationObject<Spec> = {
+export type DestinationObject<Spec> = {
     [key in keyof Spec]: Spec[key]
 }
-type Destination<Spec> = Promise<DestinationObject<Spec>>;
+export type Destination<Spec> = Promise<DestinationObject<Spec>>;
 
 declare global {
     interface PromiseConstructor {
