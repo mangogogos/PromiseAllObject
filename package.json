@@ -5,6 +5,12 @@
     "license": "MIT",
     "repository": "https://github.com/mangogogos/PromiseAllObject",
     "version": "0.0.1",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"TODO\" && exit 1"
+    },
     "dependencies": {
         "typescript": "^2.5.2"
     }
